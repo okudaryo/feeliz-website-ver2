@@ -1,0 +1,61 @@
+/* グローバルスタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* ヘッダーセクション */
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* メインコンテンツ */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #ffffff;
+}
+
+.hero h2 {
+    font-size: 48px;
+    color: #ff9800;
+    margin: 0;
+    font-weight: bold;
+}
+
+.hero .subtext {
+    font-size: 24px;
+    color: #ff9800;
+    margin-top: 10px;
+}
+
+.hero .description {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
